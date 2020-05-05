@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="38228" started-at="2020-05-05T10:50:25Z" finished-at="2020-05-05T10:51:03Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.capgemini.myntra.runnerclass.BuyingProductEndToEndRunner@754ba872]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Default test" duration-ms="38228" started-at="2020-05-05T10:50:25Z" finished-at="2020-05-05T10:51:03Z">
+      <class name="com.capgemini.myntra.runnerclass.BuyingProductEndToEndRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.capgemini.myntra.runnerclass.BuyingProductEndToEndRunner@754ba872]" name="setUpClass" is-config="true" duration-ms="400" started-at="2020-05-05T10:50:25Z" finished-at="2020-05-05T10:50:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.capgemini.myntra.runnerclass.BuyingProductEndToEndRunner@754ba872]" name="feature" duration-ms="37561" started-at="2020-05-05T10:50:26Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2020-05-05T10:51:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Essentials]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.capgemini.myntra.runnerclass.BuyingProductEndToEndRunner@754ba872]" name="tearDownClass" is-config="true" duration-ms="130" started-at="2020-05-05T10:51:03Z" finished-at="2020-05-05T10:51:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.capgemini.myntra.runnerclass.BuyingProductEndToEndRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
